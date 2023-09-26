@@ -37,3 +37,10 @@ Apply UMAP dimensionality reduction, using the saved pickle data to visualize th
 
 `analyze_imageset.py -p /path/to/cell_data.pickle --attempt-dim-reduction -vv`
 
+## Outputs
+
+Example input image:
+![input](examples/input.png) 
+
+nucleus + cell segmentation output:
+![output](examples/output.png)
