@@ -3,7 +3,7 @@ The collection of methods used to analyze the JUMP cell painting dataset(https:/
 
 `opencv scipy umap-learn matplotlib PIL numpy pickle pathlib`
 
-Please update these packages to the latest versions as some used functionalities are not available in older ones.
+Please update these packages to the latest versions as some used functionalities are not available in older ones. Python v3.8 and v3.9 were used for testing.
 
 ## Usage
 The main entry point script is the `analyze_imageset.py`, and running it with `--help` argument will give a detailed rundown of the available argument options. Below though one can find some usefull argument combinations.
@@ -37,3 +37,10 @@ Apply UMAP dimensionality reduction, using the saved pickle data to visualize th
 
 `analyze_imageset.py -p /path/to/cell_data.pickle --attempt-dim-reduction -vv`
 
+## Outputs
+
+Example input image:
+![input](examples/input.png) 
+
+nucleus + cell segmentation output:
+![output](examples/output.png)
